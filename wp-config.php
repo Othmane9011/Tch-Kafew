@@ -40,6 +40,8 @@ define('DB_CHARSET', 'utf8');
   */
 define('DB_COLLATE', '');
 
+# xqn&KLFTI6WljCmS&u mdp wordpress
+
 /**#@+
  * Clés uniques d’authentification et salage.
  *

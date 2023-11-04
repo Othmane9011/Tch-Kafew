@@ -1,0 +1,40 @@
+2023-10-29T01:57:00+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatetruecolor() in D:\Github\tchopress\wordpress\wp-content\plugins\athemes-starter-sites\v2\classes\class-importer.php:828
+Stack trace:
+#0 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(310): Athemes_Starter_Sites_Importer->convert_attachment_to_placeholder(Array)
+#1 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 D:\Github\tchopress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\Github\tchopress\wordpress\wp-content\plugins\athemes-starter-sites\v2\vendor\wp-content-importer-v2\WXRImporter.php(1123): do_action('atss_importer.p...', Array)
+#4 D:\Github\tchopress\wordpress\wp-content\plugins\athemes-starter-sites\v2\vendor\wp-content-importer-v2\WXRImporter.php(881): ATSS_WXRImporter->process_attachment(Array, Array, 'http://demo.ath...')
+#5 D:\Github\tchopress\wordpress\wp-content\plugins\athemes-starter-sites\v2\vendor\wp-content-importer-v2\WXRImporter.php(409): ATSS_WXRImporter->process_post(Array, Array, Array, Array)
+#6 D:\Github\tchopress\wordpress\wp-content\plugins\athemes-starter-sites\v2\classes\class-importer.php(643): ATSS_WXRImporter->import('D:\\Github\\tchop...')
+#7 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(310): Athemes_Starter_Sites_Importer->ajax_import_contents('')
+#8 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#9 D:\Github\tchopress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 D:\Github\tchopress\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_atss_im...')
+#11 {main}
+  thrown dans D:\Github\tchopress\wordpress\wp-content\plugins\athemes-starter-sites\v2\classes\class-importer.php à la ligne 828
+
+2023-10-29T02:07:41+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method Sydney_Header::logo() cannot be called statically in D:\Github\tchopress\wordpress\wp-includes\customize\class-wp-customize-partial.php:222
+Stack trace:
+#0 D:\Github\tchopress\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(310): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Github\tchopress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Github\tchopress\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 D:\Github\tchopress\wordpress\wp-blog-header.php(19): require_once('D:\\Github\\tchop...')
+#6 D:\Github\tchopress\wordpress\index.php(17): require('D:\\Github\\tchop...')
+#7 {main}
+  thrown dans D:\Github\tchopress\wordpress\wp-includes\customize\class-wp-customize-partial.php à la ligne 222
+
+2023-10-29T03:06:40+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method Sydney_Header::logo() cannot be called statically in D:\Github\tchopress\wordpress\wp-includes\customize\class-wp-customize-partial.php:222
+Stack trace:
+#0 D:\Github\tchopress\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(310): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Github\tchopress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Github\tchopress\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 D:\Github\tchopress\wordpress\wp-blog-header.php(19): require_once('D:\\Github\\tchop...')
+#6 D:\Github\tchopress\wordpress\index.php(17): require('D:\\Github\\tchop...')
+#7 {main}
+  thrown dans D:\Github\tchopress\wordpress\wp-includes\customize\class-wp-customize-partial.php à la ligne 222
+

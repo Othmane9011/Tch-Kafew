@@ -1,0 +1,72 @@
+2023-11-02T03:03:27+00:00 CRITICAL Uncaught Error: Attempt to assign property "priority" on null in D:\Github\tchopress\wordpress\wp-content\themes\sydney\inc\customizer\options\woocommerce.php:22
+Stack trace:
+#0 D:\Github\tchopress\wordpress\wp-content\themes\sydney\inc\customizer\customizer.php(113): require()
+#1 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(310): sydney_customize_register(Object(WP_Customize_Manager))
+#2 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Github\tchopress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Github\tchopress\wordpress\wp-includes\class-wp-customize-manager.php(940): do_action('customize_regis...', Object(WP_Customize_Manager))
+#5 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#6 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Github\tchopress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Github\tchopress\wordpress\wp-settings.php(654): do_action('wp_loaded')
+#9 D:\Github\tchopress\wordpress\wp-config.php(98): require_once('D:\\Github\\tchop...')
+#10 D:\Github\tchopress\wordpress\wp-load.php(50): require_once('D:\\Github\\tchop...')
+#11 D:\Github\tchopress\wordpress\wp-admin\admin.php(34): require_once('D:\\Github\\tchop...')
+#12 D:\Github\tchopress\wordpress\wp-admin\customize.php(13): require_once('D:\\Github\\tchop...')
+#13 {main}
+  thrown dans D:\Github\tchopress\wordpress\wp-content\themes\sydney\inc\customizer\options\woocommerce.php à la ligne 22
+
+2023-11-02T03:06:14+00:00 CRITICAL Uncaught Error: Attempt to assign property "priority" on null in D:\Github\tchopress\wordpress\wp-content\themes\sydney\inc\customizer\options\woocommerce.php:22
+Stack trace:
+#0 D:\Github\tchopress\wordpress\wp-content\themes\sydney\inc\customizer\customizer.php(113): require()
+#1 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(310): sydney_customize_register(Object(WP_Customize_Manager))
+#2 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Github\tchopress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Github\tchopress\wordpress\wp-includes\class-wp-customize-manager.php(940): do_action('customize_regis...', Object(WP_Customize_Manager))
+#5 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#6 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Github\tchopress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Github\tchopress\wordpress\wp-settings.php(654): do_action('wp_loaded')
+#9 D:\Github\tchopress\wordpress\wp-config.php(98): require_once('D:\\Github\\tchop...')
+#10 D:\Github\tchopress\wordpress\wp-load.php(50): require_once('D:\\Github\\tchop...')
+#11 D:\Github\tchopress\wordpress\wp-admin\admin.php(34): require_once('D:\\Github\\tchop...')
+#12 D:\Github\tchopress\wordpress\wp-admin\customize.php(13): require_once('D:\\Github\\tchop...')
+#13 {main}
+  thrown dans D:\Github\tchopress\wordpress\wp-content\themes\sydney\inc\customizer\options\woocommerce.php à la ligne 22
+
+2023-11-02T03:06:24+00:00 CRITICAL Uncaught Error: Attempt to assign property "priority" on null in D:\Github\tchopress\wordpress\wp-content\themes\sydney\inc\customizer\options\woocommerce.php:22
+Stack trace:
+#0 D:\Github\tchopress\wordpress\wp-content\themes\sydney\inc\customizer\customizer.php(113): require()
+#1 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(310): sydney_customize_register(Object(WP_Customize_Manager))
+#2 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Github\tchopress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Github\tchopress\wordpress\wp-includes\class-wp-customize-manager.php(940): do_action('customize_regis...', Object(WP_Customize_Manager))
+#5 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#6 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Github\tchopress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Github\tchopress\wordpress\wp-settings.php(654): do_action('wp_loaded')
+#9 D:\Github\tchopress\wordpress\wp-config.php(98): require_once('D:\\Github\\tchop...')
+#10 D:\Github\tchopress\wordpress\wp-load.php(50): require_once('D:\\Github\\tchop...')
+#11 D:\Github\tchopress\wordpress\wp-admin\admin.php(34): require_once('D:\\Github\\tchop...')
+#12 D:\Github\tchopress\wordpress\wp-admin\customize.php(13): require_once('D:\\Github\\tchop...')
+#13 {main}
+  thrown dans D:\Github\tchopress\wordpress\wp-content\themes\sydney\inc\customizer\options\woocommerce.php à la ligne 22
+
+2023-11-02T04:14:34+00:00 CRITICAL Uncaught Error: Attempt to assign property "priority" on null in D:\Github\tchopress\wordpress\wp-content\themes\sydney\inc\customizer\options\woocommerce.php:22
+Stack trace:
+#0 D:\Github\tchopress\wordpress\wp-content\themes\sydney\inc\customizer\customizer.php(113): require()
+#1 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(310): sydney_customize_register(Object(WP_Customize_Manager))
+#2 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Github\tchopress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Github\tchopress\wordpress\wp-includes\class-wp-customize-manager.php(940): do_action('customize_regis...', Object(WP_Customize_Manager))
+#5 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#6 D:\Github\tchopress\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Github\tchopress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Github\tchopress\wordpress\wp-settings.php(654): do_action('wp_loaded')
+#9 D:\Github\tchopress\wordpress\wp-config.php(98): require_once('D:\\Github\\tchop...')
+#10 D:\Github\tchopress\wordpress\wp-load.php(50): require_once('D:\\Github\\tchop...')
+#11 D:\Github\tchopress\wordpress\wp-admin\admin.php(34): require_once('D:\\Github\\tchop...')
+#12 D:\Github\tchopress\wordpress\wp-admin\customize.php(13): require_once('D:\\Github\\tchop...')
+#13 {main}
+  thrown dans D:\Github\tchopress\wordpress\wp-content\themes\sydney\inc\customizer\options\woocommerce.php à la ligne 22
+
